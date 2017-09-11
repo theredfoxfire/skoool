@@ -12,4 +12,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 </body>
+<script src="<?php echo asset_url(); ?>js/jquery.min.js"></script>
+<script src="<?php echo asset_url(); ?>js/bootstrap.min.js"></script>
+<script>
+$('#myarea').tooltip();
+$('#myarea2').tooltip();
+$('#myarea3').tooltip();
+$('#myarea4').tooltip();
+$('#myarea5').tooltip();
+$('#myarea6').tooltip();
+$('#myarea7').tooltip();
+</script>
 </html>

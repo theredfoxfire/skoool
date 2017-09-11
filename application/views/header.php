@@ -6,6 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>Welcome to SAKOLA</title>
 	<link rel="stylesheet" href="<?php echo asset_url(); ?>css/main.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo asset_url(); ?>css/bootstrap.min.css" type="text/css" />
 </head>
 <body>
 

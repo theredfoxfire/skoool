@@ -51,7 +51,7 @@ p.footer {
 }
 .copy-link {
 	margin-left: 70%;
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #444;
 }
 .footer-links {
@@ -63,9 +63,51 @@ p.footer {
 	padding-left: 5%;
 }
 .footer-link {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #3a67ab;
 	font-size: 16;
 	font-weight: bold;
 	margin-left: 5px;
+}
+#myarea {
+  position:absolute;
+  left:450px;
+  width:320px;
+  top:200px;
+}
+#myarea2 {
+  position:absolute;
+  left:390px;
+  width:200px;
+  top:280px;
+}
+#myarea3 {
+  position:absolute;
+  left:270px;
+  width:200px;
+  top:380px;
+}
+#myarea4 {
+  position:absolute;
+  left:220px;
+  width:150px;
+  top:470px;
+}
+#myarea5 {
+  position:absolute;
+  left:330px;
+  width:150px;
+  top:600px;
+}
+#myarea6 {
+  position:absolute;
+  left:330px;
+  width:150px;
+  top:600px;
+}
+#myarea7 {
+  position:absolute;
+  left:330px;
+  width:150px;
+  top:600px;
 }

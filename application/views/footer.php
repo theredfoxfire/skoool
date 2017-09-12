@@ -22,5 +22,15 @@ $('#myarea4').tooltip();
 $('#myarea5').tooltip();
 $('#myarea6').tooltip();
 $('#myarea7').tooltip();
+$('#myarea8').tooltip();
+$('#myarea9').tooltip();
+$('#myarea10').tooltip();
+$('#myarea11').tooltip();
+$('#myarea12').tooltip();
+$('#myarea13').tooltip();
+$('#myarea14').tooltip();
+$('#myarea15').tooltip();
+$('#myarea16').tooltip();
+$('#myarea17').tooltip();
 </script>
 </html>

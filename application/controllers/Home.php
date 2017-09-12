@@ -20,21 +20,24 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$data['title'] = 'Welcome to SAKOLA';
+		$this->load->view('header', $data);
         $this->load->view('home');
         $this->load->view('footer');
 	}
 
 	public function contact()
 	{
-		$this->load->view('header');
+		$data['title'] = 'Contact';
+		$this->load->view('header', $data);
         $this->load->view('about');
         $this->load->view('footer');
 	}
 
 	public function about()
 	{
-		$this->load->view('header');
+		$data['title'] = 'About';
+		$this->load->view('header', $data);
         $this->load->view('about');
         $this->load->view('footer');
 	}
